@@ -17,7 +17,7 @@ with header:
 with dataset:
     st.header('Covid-19 cases by state')
 
-    covid_19= pd.read_csv('/Users/alif/Downloads/Covid-19.csv')
+    covid_19= pd.read_csv('https://raw.githubusercontent.com/agnawak/Lisa/main/Covid-19.csv')
     st.write(covid_19)
 
 # confirmed cases chart (bubble plot)
