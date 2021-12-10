@@ -50,10 +50,10 @@ fig4 = px.bar(hospital_admission, x = 'Admitted', y = hospital_admission.index, 
              color_continuous_scale = ['paleturquoise','blue'], title = 'Hospital Admission')
 st.write(fig4)
 
-main_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg?raw=true"
+main_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg"
 main_bg_ext = "jpg"
 
-side_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg?raw=true"
+side_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg"
 side_bg_ext = "jpg"
 
 st.markdown(
@@ -66,6 +66,6 @@ st.markdown(
         background: url(data:image/{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()})
     }}
     </style>
-    """
-    #unsafe_allow_html=True
+    """,
+    unsafe_allow_html=True
 )
