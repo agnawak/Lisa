@@ -50,10 +50,10 @@ fig4 = px.bar(hospital_admission, x = 'Admitted', y = hospital_admission.index, 
              color_continuous_scale = ['paleturquoise','blue'], title = 'Hospital Admission')
 st.write(fig4)
 
-main_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg"
+main_bg = "Lisa/Virus.jpg"
 main_bg_ext = "jpg"
 
-side_bg = "https://github.com/agnawak/Lisa/blob/main/Virus.jpg"
+side_bg = "Lisa/Virus.jpg"
 side_bg_ext = "jpg"
 
 st.markdown(
